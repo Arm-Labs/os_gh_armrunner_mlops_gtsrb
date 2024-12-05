@@ -8,3 +8,4 @@ jobs:
     steps:
       - name: Example step
         run: echo "This line runs on Arm!"
+        run: lscpu
