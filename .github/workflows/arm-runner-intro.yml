@@ -7,5 +7,4 @@ jobs:
     runs-on: ubuntu-22.04-arm-os # Custom ARM64 runner
     steps:
       - name: Example step
-        run: echo "This line runs on Arm!"
-        run: lscpu
+        run: echo "This line runs on Arm!" ; lscpu
